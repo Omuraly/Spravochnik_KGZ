@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spravochnik_kgz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/flag"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".obratSviaz"></activity>
+        <activity android:name=".oNas" />
+        <activity android:name=".infoAct" />
+        <activity android:name=".homekg" />
+        <activity android:name=".homeru" />
+        <activity android:name=".homeeng" />
+        <activity android:name=".ActivityTwo" />
+        <activity android:name=".ActivityTwoEn" />
+        <activity android:name=".ActivityTwoRu" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivityEn" />
+        <activity android:name=".MainActivityRu" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".DetailActivityEn" />
+        <activity android:name=".DetailActivityRu" />
+    </application>
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/o_nas"
+        android:orderInCategory="100"
+        android:title="О нас"/>
+
+    <item
+        android:id="@+id/o_prog"
+        android:orderInCategory="100"
+        android:title="О приложении"/>
+
+    <item
+        android:id="@+id/obrat"
+        android:orderInCategory="100"
+        android:title="Обратная связь"/>
+
+
+
+</menu>

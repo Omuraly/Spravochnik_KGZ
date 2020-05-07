@@ -1,0 +1,2 @@
+rootProject.name='Spravochnik_KGZ'
+include ':app'

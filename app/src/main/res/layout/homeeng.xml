@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon2"
+    tools:context=".homeeng">
+
+    <AutoCompleteTextView
+        android:id="@+id/inputSearchEN"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_states"
+        android:hint="Enter the title"
+        android:inputType="textVisiblePassword"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btneng"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_states"
+        android:text="next" />
+
+    <ImageView
+        android:id="@+id/search_button_EN"
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toEndOf="@+id/inputSearchEN"
+        android:clickable="true"
+        app:layout_constraintStart_toEndOf="@+id/inputSearchEN"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="325dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/text_eng1"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/btneng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</RelativeLayout>
