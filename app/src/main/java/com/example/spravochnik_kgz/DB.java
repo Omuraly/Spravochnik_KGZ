@@ -15,7 +15,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by Andy on 06.06.2018.
+ * db_version 1.0.0
  */
 
 public class DB {
