@@ -33,22 +33,22 @@ public class DB {
     private static final String DB_CREATE =
             "create table " + DB_TABLE + "(" +
                     COLUMN_ID + " integer primary key autoincrement, " +
-                    COLUMN_NAME + " text, " +
-                    COLUMN_DESC + " text" +
+                    COLUMN_NAME + " text," +
+                    COLUMN_DESC + "text" +
                     ");";
 
     private static final String DB_CREATE_EN =
             "create table " + DB_TABLE_EN + "(" +
                     COLUMN_ID + " integer primary key autoincrement, " +
-                    COLUMN_NAME + " text, " +
-                    COLUMN_DESC + " text" +
+                    COLUMN_NAME + " text," +
+                    COLUMN_DESC + "text" +
                     ");";
 
     private static final String DB_CREATE_RU =
             "create table " + DB_TABLE_RU + "(" +
                     COLUMN_ID + " integer primary key autoincrement, " +
-                    COLUMN_NAME + " text, " +
-                    COLUMN_DESC + " text" +
+                    COLUMN_NAME + " text," +
+                    COLUMN_DESC + "text" +
                     ");";
 
     private final Context mCtx;
@@ -72,7 +72,6 @@ public class DB {
 
     // получить все данные из таблицы DB_TABLE
     public Cursor getAllData() {
-
         return mDB.query(DB_TABLE, null, null, null, null, null, null);
     }
 
