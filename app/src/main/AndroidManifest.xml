@@ -16,20 +16,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".obratSviaz"></activity>
+        <activity android:name=".obratSviaz"/>
         <activity android:name=".oNas" />
         <activity android:name=".infoAct" />
-        <activity android:name=".homekg" />
-        <activity android:name=".homeru" />
-        <activity android:name=".homeeng" />
-        <activity android:name=".ActivityTwo" />
-        <activity android:name=".ActivityTwoEn" />
-        <activity android:name=".ActivityTwoRu" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".MainActivityEn" />
-        <activity android:name=".MainActivityRu" />
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".DetailActivityEn" />
-        <activity android:name=".DetailActivityRu" />
+        <activity android:name=".homekg"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".homeru"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".homeeng"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".ActivityTwo"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".ActivityTwoEn"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".ActivityTwoRu"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".MainActivityEn"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".MainActivityRu"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".DetailActivity"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".DetailActivityEn"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".DetailActivityRu"
+            android:theme="@style/AppTheme2"/>
     </application>
 </manifest>
