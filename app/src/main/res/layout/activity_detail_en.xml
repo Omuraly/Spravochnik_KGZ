@@ -16,6 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
-            android:text="Description" />
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,8 @@
     <ListView
         android:id="@+id/lvMainRu"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="18sp">
     </ListView>
 </androidx.constraintlayout.widget.ConstraintLayout>
