@@ -16,7 +16,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:hint="Атын Жазыңыз"
-        android:inputType="textVisiblePassword"
+        android:inputType="textAutoComplete"
         android:textStyle="italic"
         android:background="@drawable/button_states"
         app:layout_constraintStart_toStartOf="parent"

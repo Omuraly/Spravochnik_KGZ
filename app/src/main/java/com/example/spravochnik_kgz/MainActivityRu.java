@@ -11,8 +11,9 @@ import android.os.Bundle;
 
 public class MainActivityRu extends AppCompatActivity {
 
-    String[] letters = { "А", "Б", "В", "Г", "Д", "Ж", "З", "И", "К",
-            "Л", "М", "Н", "О", "П", "C", "Т", "У","Ф", "Х", "Ц", "Ч", "Ш", "Ы", "Э", "Ю"};
+    String[] letters = { "А", "Б","Г", "Д", "Ж","И", "К",
+            "Л", "М", "Н", "О", "П", "C", "Т", "У",
+            "Х","Ч","Ш","Ы","Я"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -13,9 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] letters = {"А","Б","В","Г","Д","Ж","З","И","К","Л",
-            "М","Н","О","Ө","П","С","Т","У","Ү","Ф","Х","Ц","Ч","Ш",
-            "Ы","Э","Ю",};
+    String[] letters = {"А","Б","Г","Ж","И","К","Л",
+            "М","Н","О","Ө","П","С","Х","Ч","Ш","Ы"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

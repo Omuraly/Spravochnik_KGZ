@@ -14,8 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivityTwoEn extends AppCompatActivity {
 
-    String[] letters = { "A", "B","C", "D","E", "F","G", "H","I", "J","K",
-            "L","M", "N","O", "P","Q", "R","S", "T","U", "V","W", "X","Y", "Z", };
+    String[] letters = {"A","B","H","J","Z","I","K",
+            "L","M","N","O","P","S","T","U","K","C","S","I",};
     ListView spisok;
     DB db;
     SimpleCursorAdapter scAdapter;

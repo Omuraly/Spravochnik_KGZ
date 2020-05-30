@@ -13,8 +13,9 @@ import android.widget.SimpleCursorAdapter;
 
 
 public class ActivityTwoRu extends AppCompatActivity {
-    String[] letters = { "А", "Б", "В", "Г", "Д", "Ж", "З", "И", "К",
-            "Л", "М", "Н", "О", "П", "C", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Ы", "Э", "Ю"};
+    String[] letters = { "А", "Б","Г", "Д", "Ж","И", "К",
+            "Л", "М", "Н", "О", "П", "C", "Т", "У",
+            "Х","Ч","Ш","Ы","Я"};
     ListView spisok;
     DB db;
     SimpleCursorAdapter scAdapter;
